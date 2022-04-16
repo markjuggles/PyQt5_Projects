@@ -45,5 +45,7 @@ if __name__ == "__main__":
     MainWindow = QtWidgets.QMainWindow()
     ui = Ui_MainWindow()
     ui.setupUi(MainWindow)
+    MainWindow.setWindowTitle("Counter")
+    MainWindow.setWindowIcon(QtGui.QIcon('acorn.png'))
     MainWindow.show()
     sys.exit(app.exec_())
